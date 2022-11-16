@@ -1,0 +1,28 @@
+.result-name-card{
+    color: #e7e9f0;
+    background-color: #282d4f;
+    margin: 1.5rem;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2.4rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.result-name-card:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+.result-name{
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.card-link{
+    text-decoration: none;
+}
